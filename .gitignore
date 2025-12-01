@@ -1,11 +1,9 @@
-target/
+```
+# Compiled and build artifacts
 *.class
-*.log
+target/
+# Dependencies
+WEB-INF/lib/
+# Archives
 *.war
-*.ear
-.idea/
-*.iml
-.settings/
-.project
-.classpath
-.DS_Store
+```
