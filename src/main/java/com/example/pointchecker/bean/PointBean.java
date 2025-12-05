@@ -1,8 +1,8 @@
 package com.example.pointchecker.bean;
 
-import javax.inject.Named;
-import javax.enterprise.context.SessionScoped;
-import javax.validation.constraints.NotNull;
+import jakarta.inject.Named;
+import jakarta.enterprise.context.SessionScoped;
+import jakarta.validation.constraints.NotNull;
 import java.io.Serializable;
 
 @Named("pointBean")

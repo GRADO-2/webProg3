@@ -4,12 +4,12 @@ import com.example.pointchecker.dao.PointResultDAO;
 import com.example.pointchecker.entity.PointResult;
 import com.example.pointchecker.util.AreaChecker;
 
-import javax.annotation.PostConstruct;
-import javax.faces.application.FacesMessage;
-import javax.inject.Named;
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
-import javax.faces.context.FacesContext;
+import jakarta.annotation.PostConstruct;
+import jakarta.faces.application.FacesMessage;
+import jakarta.inject.Named;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.faces.context.FacesContext;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.ArrayList;

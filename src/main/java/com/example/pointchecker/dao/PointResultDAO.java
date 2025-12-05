@@ -3,8 +3,8 @@ package com.example.pointchecker.dao;
 import com.example.pointchecker.entity.PointResult;
 import com.example.pointchecker.util.HibernateUtil;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityTransaction;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityTransaction;
 import java.util.List;
 
 public class PointResultDAO {

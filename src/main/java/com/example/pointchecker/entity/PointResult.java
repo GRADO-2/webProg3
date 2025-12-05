@@ -1,32 +1,32 @@
 package com.example.pointchecker.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "point_results")
 public class PointResult implements Serializable {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     @Column(nullable = false)
     private Double x;
-    
+
     @Column(nullable = false)
     private Double y;
-    
+
     @Column(nullable = false)
     private Double r;
-    
+
     @Column(nullable = false)
     private Boolean hit;
-    
+
     @Column(name = "check_time", nullable = false)
     private LocalDateTime checkTime;
-    
+
     @Column(name = "execution_time")
     private Long executionTime; // in nanoseconds
 
